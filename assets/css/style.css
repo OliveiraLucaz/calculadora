@@ -1,0 +1,118 @@
+/*
+
+font-family: 'Titillium Web', sans-serif;
+ExtraLight 200
+Light 300
+Regular 400
+SemiBold 600
+
+font-family: 'Inconsolata', monospace;
+Medium 500
+
+*/
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/blurry-gradient-haikei.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.calculadora{
+    width: 450px;
+    height: auto;
+    background-color: #474747;
+    padding: 10px;
+}
+.calculadora h1{
+    color: #fff;
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    padding: 10px;
+}
+.calculadora img{
+    width: 20px;
+    height: 20px;
+    
+
+}
+.visor{
+    width: 100%;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #252424;
+    border-radius: 10px;
+}
+.visor #campo{
+    width: 350px;
+    height: 90px;
+    text-align: center;
+    line-height: 90px;
+    background-color: #252424;
+    color: #fff;
+    font-size: 70px;
+    text-align: end;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 500;
+    cursor: none;
+}
+.teclas{
+    display: flex;
+}
+.numeros{
+    width: 60%;
+    height: 380px;
+    background-color: #252424;
+    display: grid;
+    color: #fff;
+    gap: 50px;
+    grid-template-columns: auto auto auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.valor{
+    width: 50px;
+    text-align: center;
+    height: 50px;
+    background-color: #474747;
+    border-radius: 50px;
+    padding: 5px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.operadores{
+    width: 20%;
+    height: 380px;
+    background-color: #252424;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 20px;
+    justify-content: center;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
+}
+.limpar, .apagar, .divisao, .multiplicacao, .soma, .igual, .subtracao{
+    width: 100px;
+    text-align: center;
+    height: 50px;
+    background-color: #474747;
+    border-radius: 50px;
+    line-height: 40px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
